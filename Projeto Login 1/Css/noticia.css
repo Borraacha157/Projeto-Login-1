@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+h1 {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+
+#primeiro_paragrafo {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;    
+}
+
+#segundo_paragrafo {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+}
+
+#terceiro_paragrafo {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Anton', sans-serif;
+}
+
+#foto img{
+    height: 220px;
+    width: 360px;
+}
