@@ -8,6 +8,11 @@
     <title>Noticia</title>
 </head>
 <body>
+<div>
+    <button class="escuro" id="btn_escuro">Tema Escuro</button>
+    <button class="claro" id="btn_claro">Tema Claro</button>
+        
+</div>
 <header>
     <h1>
         Expresso Notícias
@@ -38,7 +43,23 @@
     <div id="foto">
         <img src="../imagens/macaco.jpg">
     </div>
+
+    
 </div>
+
+<script>
+    document.getElementById("btn_escuro").
+    addEventListener("click", function(){
+      document.querySelector("body").
+      setAttribute("class","escuro");
+    })
+
+    document.getElementById("btn_claro").
+    addEventListener("click", function(){
+      document.querySelector("body").
+      setAttribute("class","claro");
+    })
+  </script>
     
 </body>
 <script src="../Js/jornais.js"></script>

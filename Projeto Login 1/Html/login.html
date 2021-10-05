@@ -12,6 +12,11 @@
 </head>
 <body>
   <div>
+    <button class="escuro" id="btn_escuro">Tema Escuro</button>
+    <button class="claro" id="btn_claro">Tema Claro</button>
+    
+  </div>
+  <div>
     <h1>
       Bem Vindo(a) ao Expresso Notícias
     </h1>
@@ -26,8 +31,21 @@
     <input type="password" class="form-control" id="senha" placeholder="numbers1234">
   </div>
   <button id="btn_entrar" type="button" class="btn btn-primary btn-sm">Login</button>
-
   </div>
+
+  <script>
+    document.getElementById("btn_escuro").
+    addEventListener("click", function(){
+      document.querySelector("body").
+      setAttribute("class","escuro");
+    })
+
+    document.getElementById("btn_claro").
+    addEventListener("click", function(){
+      document.querySelector("body").
+      setAttribute("class","claro");
+    })
+  </script>
 </body>
     <script src="../Js/jornais.js"></script>
 </html>

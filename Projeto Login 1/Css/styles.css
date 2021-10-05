@@ -1,6 +1,5 @@
-body {
-    background-color: #181616;
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 #credenciais {
     margin: 0 auto;
@@ -12,6 +11,35 @@ body {
 }
 
 h1 {
-    color: #e8f3ff;
+    
     text-align: left;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+.escuro {
+    background-color:#181616;
+    color: white;
+    transition: all 0.25s ease-in-out
+}
+
+.claro {
+    transition: all 0.25s ease-in-out
+}
+
+button {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
 }
